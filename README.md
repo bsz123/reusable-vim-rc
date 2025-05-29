@@ -8,10 +8,14 @@ The key highlights of this repo are:
 - vim rcs for jetbrains and visual studio code + its forks
 - plugin loading for vim (at a system level)
 
-## What idiot decided to make this a flat repo?
-
-I did.
-
 ## What could be improved?
 
 In the future having a script that can install editor dependent rcs and plugins depending on if an editor exists is a nice to have
+
+# Setup
+
+This is mainly a reference for me. The most complicated part is the plugin loading for vim. The rest is just a matter of copying the files to the right place.
+
+## Plugin Loading
+
+For more info on how plugin loading works see the [plugin loading docs](docs/plugin_loading.md).
